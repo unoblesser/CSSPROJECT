@@ -1,3 +1,125 @@
-h1{
+@import url('https://fonts.cdnfonts.com/css/bruno-ace-sc');
+
+body{
+    font-family: Bruno Ace SC, serif;
+    color: #000000;
+    line-height: 1.5;
+}
+img{
+    vertical-align: middle;
+}
+.d-flex{
+    display: flex;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.bg-black{
+    background: #000000;
+}
+.nav{
+    justify-content: space-between;
+}
+.nav li{
+    max-width: 306px;
+    padding: 40px;
+}
+.nav a{
+    color: #D1D1D1;
+}
+.btn{
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.w636{
+    width: 636px;
+}
+.w526{
+    width: 526px;
+}
+.right p{
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.right h1{
+    font-size: 128px;
+    color: #00FFA3;
+}
+.contact-me{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 185px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.contact-me p{
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+}
+.bg{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+.introduction-left{
+    width: 526px;
+    color: #FFFFFF;
+}
+.mb34{
+    margin-bottom: 34px;
+}
+.introduction-left h2{
+    font-size: 64px;
+}
+.introduction-left p{
+    font-size: 24px;
+}
+.about-me{
+    background: #FFFFFF;
+    justify-content: space-around;
+}
+.fw{
+    flex-wrap: nowrap;
+}
+.border{
+    width: 306px;
+    border: 1px solid #E3E3E3;
+}
+.title{
+    color: #000000;
+}
+.icon{
+    background-image: linear-gradient(to bottom, #050014, #01021E);
+}
+.size{
+    width: 162px;
+}
+.icon h2{
+    color: #FFFFFF;
+}
+.see-more{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 185px;
+    background: #000000;
+    border-radius: 15px;
     
 }
+.see-more p{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer{
+    background: #000000;
+    text-align: center;
+}
+.footer p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #FFFFFF;
+}
+
