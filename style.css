@@ -5,11 +5,31 @@ body{
     color: #000000;
     line-height: 1.5;
 }
+h1{
+    font-size: 128px;
+    color: #00FFA3;
+    text-align: right;
+}
+h2{
+    font-size: 64px;
+}
+h3{
+    font-size: 20px;
+}
 img{
     vertical-align: middle;
 }
 .d-flex{
     display: flex;
+}
+.jcc{
+    justify-content: center;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.aic{
+    align-items: center;
 }
 .container{
     width: 1296px;
@@ -18,22 +38,56 @@ img{
 .bg-black{
     background: #000000;
 }
-.nav{
-    justify-content: space-between;
+.bg{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
 }
-.nav li{
-    max-width: 306px;
-    padding: 40px;
+.container li{
+    padding-top: 40px;
 }
-.nav a{
+.container a{
     color: #D1D1D1;
+    font-size: 16px;
 }
 .btn{
     text-decoration: none;
 }
 .banner{
     display: flex;
-    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.ta-right{
+    text-align: right;
+}
+.ml12{
+    margin-left: 12px;
+}
+.mr12{
+    margin-right: 12px;
+}
+.mb16{
+    margin-bottom: 16px;
+}
+.mr24{
+    margin-right: 24px;
+}
+.mb28{
+    margin-bottom: 28px;
+}
+.mt30{
+    margin-top: 30px;
+}
+.mr60{
+    margin-right: 60px;
+}
+.ml550{
+    margin-left: 550px;
+}
+.w196{
+    width: 196px;
+}
+.w306{
+    width: 306px;
 }
 .w636{
     width: 636px;
@@ -41,29 +95,44 @@ img{
 .w526{
     width: 526px;
 }
-.right p{
+.fz24{
+    font-size: 24px;
+}
+.ptbr{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-right: 100px;
+}
+.ptb{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.mtb{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.mtbl{
+    margin-top: 160px;
+    margin-bottom: 160px;
+    margin-left: 134px;
+}
+.ptb p{
     font-size: 64px;
     color: #FFFFFF;
-}
-.right h1{
-    font-size: 128px;
-    color: #00FFA3;
 }
 .contact-me{
     padding-top: 12px;
     padding-bottom: 12px;
+    margin-left: 451px;
     width: 185px;
     background: #FFFFFF;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 .contact-me p{
     font-size: 16px;
     color: #000000;
-    text-align: center;
 }
-.bg{
-    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
-}
+
 .introduction-left{
     width: 526px;
     color: #FFFFFF;
@@ -71,25 +140,29 @@ img{
 .mb34{
     margin-bottom: 34px;
 }
-.introduction-left h2{
-    font-size: 64px;
-}
 .introduction-left p{
     font-size: 24px;
 }
 .about-me{
     background: #FFFFFF;
-    justify-content: space-around;
 }
 .fw{
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .border{
-    width: 306px;
+    width: 48%;
     border: 1px solid #E3E3E3;
 }
+.myproject{
+    width: 1296px;
+    margin: auto;
+    margin-top: 162px;
+    margin-bottom: 162px;
+}
 .title{
+    width: 746px;
     color: #000000;
+    margin-bottom: 12px;
 }
 .icon{
     background-image: linear-gradient(to bottom, #050014, #01021E);
@@ -105,8 +178,12 @@ img{
     padding-bottom: 12px;
     width: 185px;
     background: #000000;
-    border-radius: 15px;
+    border-radius: 25px;
     
+}
+.wrap{
+    flex-direction: column;
+    justify-content: space-between;
 }
 .see-more p{
     font-size: 16px;
@@ -122,4 +199,3 @@ img{
     padding-bottom: 40px;
     color: #FFFFFF;
 }
-
