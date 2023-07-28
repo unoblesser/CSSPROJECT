@@ -16,6 +16,11 @@ h3{
 }
 .btn{
     text-decoration: none;
+
+    &:hover {
+        color: #00FFA3;
+        background-color: darkgray;
+    }
 }
 img{
     vertical-align: middle;
@@ -55,10 +60,8 @@ img{
     max-width: 1296px;
     margin: 0 auto;
 }
-.container li{
+.container li, a{
     padding-top: 40px;
-}
-.container a{
     color: #D1D1D1;
 }
 .bg-black{
@@ -69,6 +72,12 @@ img{
 }
 .w196{
     width: 196px;
+}
+.menu{
+    text-decoration: none;
+    &:hover{
+        color: #00FFA3;
+    }
 }
 
 /*banner*/
@@ -124,6 +133,9 @@ img{
 .w306{
     width: 306px;
 }
+.mb4{
+    margin-bottom: 4px;
+}
 .mtb8{
     margin-top: 8px;
     margin-bottom: 8px;
@@ -148,6 +160,7 @@ img{
 }
 .border{
     border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px #00000008;
 }
 
 /*contact-me*/
@@ -165,6 +178,37 @@ img{
     padding-bottom: 128px;
     margin-right: 120px;
 }
+.img1{
+    width: 162px;
+    height: 162px;
+    background-size: cover;
+    background-image: url('https://github.com/unoblesser/CSSPROJECT/blob/main/image/discord.png?raw=true');
+    &:hover{
+        width: 176px;
+        height: 176px;
+    }
+}
+.img2{
+    width: 162px;
+    height: 162px;
+    background-size: cover;
+    background-image: url('https://github.com/unoblesser/CSSPROJECT/blob/main/image/instagram.png?raw=true');
+    &:hover{
+        width: 176px;
+        height: 176px;
+    }
+}
+.img3{
+    width: 162px;
+    height: 162px;
+    background-size: cover;
+    background-image: url('https://github.com/unoblesser/CSSPROJECT/blob/main/image/message.png?raw=true');
+    &:hover{
+        width: 176px;
+        height: 176px;
+    }
+}
+
 
 /*myproject*/
  .mtb162{
